@@ -453,3 +453,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Google Assistant
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
+
+# sdcardFS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.sdcardfs=true
